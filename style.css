@@ -1,0 +1,101 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: #1f2235;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+.m-heading{
+  font-family: "Roboto-Slab",serif;
+}
+
+.navigation-link{
+  border:2px solid transparent;
+}
+
+.navigation-link:hover{
+  text-decoration: none;
+  border-bottom: 2px solid #f5ba09;
+  transition: 0.5s ease;
+}
+
+.main-container{
+  min-height: 100vh;
+}
+
+i{
+  margin-right: 10px;
+}
+
+.main_row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  color: #f4f4f0;
+  background-color: #313552;
+  font-size: 35px;
+  border: 2px solid #f5ba09;
+  border-radius: 13px;
+  padding: 15px 30px;
+  cursor: pointer
+}
+button:hover {
+  color: #f4f4f0;
+  background-color: #f5ba09;
+}
+
+email-button {
+			color: #1c1c1c;
+			background-color: #f5ba09;
+			font-size: 35px;
+			border-radius: 13px;
+			padding: 15px 30px;
+			cursor: pointer
+		}
+email-button:hover {
+			color: #1d1d1b;
+			background-color: #f8c220;
+}
+
+.main_row h1{
+  font-size: 5rem;
+}
+
+.main_row img{
+  width: auto;
+  height: 40rem;
+  float: right;
+}
+
+#about{
+  background: #313552;
+  border-radius: 0.5rem;
+}
+
+.card{
+  border-bottom: 8px solid #f5ba09;
+}
+
+#social-media{
+  background: #313552;
+}
+
+.media_link{
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: 1rem;
+  border: 2px solid #f5ba09;
+  border-radius: 0.5rem;
+}
+
+.textbox{
+  background: #fff724;
+  color: #000;
+  margin-left: 30px;
+  font-weight: 600;
+}
