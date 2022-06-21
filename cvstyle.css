@@ -177,7 +177,7 @@ section.profile .right ul.socials li a {
 }
 
 section.profile .right ul.socials li:nth-child(1) a {
-    background:var(--secondary);
+    background:var(--dribbble);
 }
 
 section.profile .right ul.socials li:nth-child(2) a {
@@ -185,7 +185,7 @@ section.profile .right ul.socials li:nth-child(2) a {
 }
 
 section.profile .right ul.socials li:nth-child(3) a {
-    background:var(--dribbble);
+    background:var(--secondary);
 }
 
 .section__heading {
@@ -683,7 +683,7 @@ footer {
 
 @media (max-width: 576px) {
     section.profile {
-        align-items: center; 
+        align-items: center;
     }
 
     section.profile .right {
